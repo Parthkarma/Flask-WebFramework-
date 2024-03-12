@@ -1,0 +1,5 @@
+The __name__ variable in Python holds the name of the current module. Its meaning can change based on how the Python script is being executed.
+
+When a Python script is run directly, the interpreter sets the __name__ variable for that script to "__main__". This indicates that the script is the main program being executed.
+
+When a Python script is imported as a module into another script, the __name__ variable is set to the name of the module. This allows the script to know whether it's being run as the main program or being imported as a module into another script.
